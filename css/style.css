@@ -16,6 +16,10 @@ h1 {
 
     margin: 0 auto;
 
+    text-align: center;
+    align-content: center;
+    font-size: 22px;
+    font-weight: bold;
     border-radius: 50%;
     background-color: tomato;
 }

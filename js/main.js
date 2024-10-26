@@ -2,7 +2,8 @@
 
 function onBallClick(elBall) {
     const currWidth = parseInt(window.getComputedStyle(elBall).width)
-    var newDiameter = currWidth + 50
+    const randSize = getRandomIntInclusive(20, 50)
+    var newDiameter = currWidth + randSize
     
     if (newDiameter > 400) {
         newDiameter = 100
